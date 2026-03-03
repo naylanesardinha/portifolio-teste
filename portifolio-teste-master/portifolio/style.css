@@ -1,0 +1,40 @@
+.hobby {
+    font-weight: bold;
+    color: pink
+}
+
+.viagens .favorito {
+    font-weight: bold;
+    color: pink
+}
+
+#escolas {
+    background-color: #f8e6f5;
+    padding: 20px;
+    border: 2px solid #aa628f;
+    border-radius: 10px;
+    width: 40%;
+    margin: 40px auto;
+}
+
+#escolas h2 {
+    color: #dd5e8f;
+    text-align: center;
+}
+
+#escolas ul {
+    list-style-type: square;
+}
+
+* {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+h2 {
+    color: #d64499;      
+    font-size: 26px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ab5ead;
+    padding-bottom: 5px;
+}
