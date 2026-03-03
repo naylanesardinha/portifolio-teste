@@ -38,3 +38,61 @@ h2 {
     border-bottom: 2px solid #ab5ead;
     padding-bottom: 5px;
 }
+
+#sobre p.destaque {
+    color: #df97cf;
+    font-weight: bold;
+}
+
+#familia p span {
+    color: rgb(172, 25, 128);
+    font-weight: bold;
+}
+
+#planejamentos ul > li {
+    color: rgb(214, 108, 182);
+    font-weight: bold;
+}
+
+#sobre h2 + p{
+    color:#df97cf;
+    font-style: italic;
+}
+
+#musicas h3 ~ p {
+    color: rgb(170, 22, 158);
+}
+
+img[alt] {
+    border: 3px solid rgb(197, 39, 137);
+    border-radius: 8px;
+}
+
+a[target="_blank"] {
+    color: rgb(219, 166, 135);
+    font-weight: bold;
+}
+button:active {
+    background-color: rgb(236, 211, 236);
+    color: white;
+}
+#paixoes h2::after {
+    content: " →";
+}
+#sonhos li::before {
+    content: "✨ ";
+}
+input:checked {
+    accent-color: rgb(170, 19, 64);
+}
+input:checked + label {
+    color: rgb(202, 25, 84);
+}
+option:default {
+    background-color: lightgray;
+}
+button:disabled {
+    background-color: gray;
+    color: white;
+    cursor: not-allowed;
+}
